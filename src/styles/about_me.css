@@ -1,0 +1,141 @@
+.aboutMe {
+  width: 100%;
+}
+
+@keyframes scale {
+  100% {
+    transform: scale(1);
+  }
+}
+
+.aboutMe__head {
+  font-size: 80px;
+  text-transform: uppercase;
+  text-align: start;
+  margin-top: 100px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.aboutMe__headSub {
+  color: #ffb400;
+}
+
+.aboutMe__section {
+  display: flex;
+  justify-content: start;
+  margin-top: 80px;
+}
+
+.aboutMe__personalInfo {
+  text-align: start;
+  color: #fff;
+  transform: scale(0.94);
+  animation: scale 3s forwards cubic-bezier(0.5, 1, 0.89, 1);
+}
+
+.aboutMe__skills {
+  margin-left: 250px;
+  transform: scale(0.94);
+  animation: scale 3s forwards cubic-bezier(0.5, 1, 0.89, 1);
+}
+
+.aboutMe__skillsHead {
+  color: #fff;
+  font-size: 30px;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-bottom: 50px;
+  transform: scale(0.94);
+  animation: scale 3s forwards cubic-bezier(0.5, 1, 0.89, 1);
+}
+
+.aboutMe__heading {
+  font-size: 30px;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-bottom: 50px;
+  transform: scale(0.94);
+  animation: scale 3s forwards cubic-bezier(0.5, 1, 0.89, 1);
+}
+
+.aboutMe__values {
+  font-size: 20px;
+  display: flex;
+  margin-top: 35px;
+}
+
+.aboutMe__qun {
+  color: #b1b1b1;
+}
+
+.aboutMe__ans {
+  padding-left: 10px;
+}
+
+.aboutMe__percentIndicator {
+  width: 120px;
+  height: 120px;
+}
+
+.aboutMe__skillsName {
+  color: #fff;
+  margin-top: 20px;
+}
+
+.aboutMe__skillsSection {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-auto-rows: 150px;
+  gap: 80px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .aboutMe__head {
+    font-size: 50px;
+    margin-top: 50px;
+    padding-left: 20px;
+  }
+  .aboutMe__section {
+    display: block;
+    justify-content: start;
+    margin-top: 20px;
+    padding-left: 20px;
+  }
+
+  .aboutMe__skills {
+    margin-left: 0px;
+    margin-bottom: 100px;
+  }
+
+  .aboutMe__personalInfo {
+    margin-top: 100px;
+  }
+
+  .aboutMe__skillsSection {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-auto-rows: 120px;
+    gap: 50px;
+    margin-left: 30px;
+  }
+
+  .aboutMe__percentIndicator {
+    width: 90px;
+    height: 90px;
+  }
+
+  .aboutMe__skillsHead {
+    color: #fff;
+    font-size: 30px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+    text-align: start;
+    margin-top: 100px;
+  }
+
+  .aboutMe__values {
+    font-size: 16px;
+  }
+}
